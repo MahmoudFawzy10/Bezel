@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bezel</title>
+
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- font Awsome -->
+  <link rel="stylesheet" href="/css/all.min.css">
+  <!-- this web syle sheet  -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" tabindex="0" class="bg-light" >
+<!-- Start Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <span class="border-line"></span>
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo-dark.png" class="w-50" alt="Logo">
+    </a>
+
+    <button class="navbar-toggler position-relative left-border" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="main">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 " href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 " href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 " href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3" href="#works">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <div class="search ps-3 pe-3 d-none d-lg-block position-relative left-border">
+        <i class="fab fa-facebook-f fs-5"></i>
+        <i class="fab fa-twitter px-3 fs-5"></i>
+        <i class="fab fa-instagram fs-5"></i>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- Start Home Page -->
+<div class="home" id="home">
+  
+  <div id="carouselExampleIndicators" class="home-container carousel slide">
+    
+    <div class="carousel-indicators swap">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/bg-image-28.jpg" class="d-block w-100" alt="Slide 1">
+        <div class="content text-white">
+          <h1 class="font-big mb-5">Get Awesome.</h1>
+          <p><h5 class="mt-4">We are an innovative company making digital stuff.</h5></p>
+
+          <div class="text-center ">
+            <a href="#" class="btn btn-primary-custom ">Hire Us</a>
+            <a href="#" class="btn btn-outline-white">Services</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/bg-image-29.jpg" class="d-block w-100" alt="Slide 2">
+        <div class="content text-white">
+          <h1 class="font-big mb-5">Create With Bezel.</h1>
+          <p><h5 class="mt-4">We are an innovative company making digital stuff.</h5></p>
+
+          <div class="text-center ">
+            <a href="#" class="btn btn-primary-custom ">Hire Us</a>
+            <a href="#" class="btn btn-outline-white ">Services</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev swap " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next swap" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="swap-icons-holder">
+    <button class="carousel-control-prev swap-icons swap-icons-1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <i class="fa-solid fa-angle-left"></i>
+    </button>
+    <button class="carousel-control-next swap-icons swap-icons-2" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <i class="fa-solid fa-angle-right"></i>
+    </button>
+  </div>
+  
+  <div class="overlay"></div>
+</div>
+<!-- End home page  -->
+<!-- Start About -->
+<div class="about p-top p-bottom" id="about">
+  <div class="container text-center">
+    <h3 class="text-uppercase fs-5">who we are</h3>
+    <p class="mt-4 fs-4">
+      We are an innovative company. We develop and design 
+      <span id="typing-text" class="fw-bold"></span> 
+      for
+    </p>
+    <p class="fs-4">
+      Customers around the world. Our clients are some of the most forward-looking companies in the world.
+    </p>
+    <!-- Button -->
+    <a href="#" class="btn custom-btn mt-4">Learn More</a>
+  </div>
+</div>
+<!-- End About -->
+
+<!-- Start team -->
+  <div class="team p-top p-bottom" id="team">
+    <div class="main-title text-center">
+      <h1 class="main-h1">Creative Team</h1>
+      <p class="pt-3 fs-5 ">We are digital thinkers</p>
+    </div>
+    <div class="container mt-5">
+      <div class="row ">
+            <!-- Team Member 1 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+        <div class="box one position-relative overflow-hidden">
+          <img src="img/team-1.jpg" class="img-fluid w-100" alt="Member 1">
+          <div class="content">
+            <div>
+              <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div>
+              <h5 class="mb-1 text-white">Luke Cage</h5>
+            <p class="mb-0 text-white">Founder & CEO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+        <div class="box position-relative overflow-hidden">
+          <img src="img/team-2.jpg" class="img-fluid w-100" alt="Member 2">
+            <div class="content">
+            <div>
+              <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div>
+              <h5 class="mb-1 text-white">Jessica Jones</h5>
+            <p class="mb-0 text-white">Product Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+        <div class="box position-relative overflow-hidden">
+          <img src="img/team-3.jpg" class="img-fluid w-100" alt="Member 3">
+          <div class="content">
+            <div>
+              <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div>
+              <h5 class="mb-1 text-white">Matt Murdock
+                </h5>
+            <p class="mb-0 text-white">Lead Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 4 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+        <div class="box position-relative overflow-hidden">
+          <img src="img/team-4.jpg" class="img-fluid w-100" alt="Member 4">
+          <div class="content">
+            <div>
+              <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div>
+              <h5 class="mb-1 text-white">Claire Temple
+                </h5>
+            <p class="mb-0 text-white">Sales Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<!-- End team -->
+<!-- Start Services -->
+<div class="services p-top p-bottom  text-white" id="services">
+  <div class="container">
+    
+    <!-- Heading Row -->
+    <div class="heading text-uppercase text-white w-100 
+                d-flex flex-wrap justify-content-between 
+                flex-column align-items-center gap-3 
+                flex-md-row justify-content-md-between align-items-md-start gap-md-0">
+      <p class="m-0  py-2">Stunning Design</p>
+      <p class="m-0 px-3 py-2">Time Saver</p>
+      <p class="m-0 px-3 py-2">Clean Code</p>
+      <p class="m-0 px-3 py-2">Customizable</p>
+      <p class="m-0 px-3 py-2">Perfect Layout</p>
+      <p class="m-0  py-2">Retina Ready</p>
+    </div>
+
+    <div class="row  align-items-center mt-5 justify-content-between">
+      <div class="col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+        <h2 class="fw-bold the-w position-relative fw-bold ">What We Do.</h2>
+        <p class="text-white-50 fs-5 mt-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquam ipsam ullam incidunt itaque nemo omnis temporibus totam
+          quibusdam repellat vero, recusandae excepturi dignissimos velit
+          et alias amet, quia facilis perferendis.
+        </p>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="row py-5 ">
+          <div class="col-md-6 mb-3">
+            <p class=""><i class="fa-regular fa-circle-check me-2"></i> Research</p>
+            <p><i class="fa-regular fa-circle-check me-2"></i> Opportunity Analysis</p>
+            <p><i class="fa-regular fa-circle-check me-2"></i> Consulting</p>
+            <p><i class="fa-regular fa-circle-check me-2"></i> Brand Planning</p>
+            <p><i class="fa-regular fa-circle-check me-2"></i> Customer Support</p>
+          </div>
+          <div class="col-md-6 mb-3">
+            <p><i class="fa-regular fa-circle-check me-2"></i> Logo & Branding</p>
+            <p><i class="fa-regular fa-circle-check me-2"></i> Style Guides</p>
+            <p><i class="fa-regular fa-circle-check me-2"></i> Motion Graphics</p>
+            <p><i class="fa-regular fa-circle-check me-2"></i> UX/UI Design</p>
+            <p><i class="fa-regular fa-circle-check me-2"></i> Social Media Design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Services -->
+<!-- Start prices-->
+<div class="pricing p-top p-bottom bg-light" id="pricing">
+  <div class="container">
+    <div class="main-title text-center mb-5">
+      <h1 class="main-h1">Cheap Prices</h1>
+      <p class="pt-3 fs-5">We provide the best quality.</p>
+    </div>
+    <div class="row justify-content-center g-4 mt-5">
+      <!-- Starter -->
+      <div class="box col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 py-5 px-3">
+          <div class="card-body">
+            <h6>Starter</h6>
+            <h1 class="display-4 fw-bold py-2 head-info">9</h1>
+            <hr>
+            <ul class="list-unstyled my-4 text-muted">
+              <li class="mb-4">Unlimited Connections</li>
+              <li class="mb-4">24/7 Support</li>
+              <li class="mb-4">Full SSL Protection</li>
+              <li class="mb-4">Unlimited Channels</li>
+            </ul>
+            <a href="#" class="btn btn-info text-white">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <!-- Silver -->
+      <div class="box col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 py-5 px-3">
+          <div class="card-body">
+            <h6>Silver</h6>
+            <h1 class="display-4 fw-bold py-2 head-info">19</h1>
+            <hr>
+            <ul class="list-unstyled my-4 text-muted">
+              <li class="mb-4">Unlimited Connections</li>
+              <li class="mb-4">24/7 Support</li>
+              <li class="mb-4">Full SSL Protection</li>
+              <li class="mb-4">Unlimited Channels</li>
+            </ul>
+            <a href="#" class="btn  btn-info text-white">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <!-- Gold -->
+      <div class="box gold col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 py-5 px-3 position-relative">
+          <div class="card-body">
+            <span class="badge">Best Value</span>
+            <h6>Gold</h6>
+            <h1 class="display-4 fw-bold py-2 text-info head-info">29</h1>
+            <hr>
+            <ul class="list-unstyled my-4 text-muted">
+              <li class="mb-4">Unlimited Connections</li>
+              <li class="mb-4">24/7 Support</li>
+              <li class="mb-4">Full SSL Protection</li>
+              <li class="mb-4">Unlimited Channels</li>
+            </ul>
+            <a href="#" class="btn btn-info text-white">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <!-- Platinum -->
+      <div class="box col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 py-5 px-3">
+          <div class="card-body">
+            <h6>Platinum</h6>
+            <h1 class="display-4 fw-bold py-2 head-info">49</h1>
+            <hr>
+            <ul class="list-unstyled my-4 text-muted">
+              <li class="mb-4">Unlimited Connections</li>
+              <li class="mb-4">24/7 Support</li>
+              <li class="mb-4">Full SSL Protection</li>
+              <li class="mb-4">Unlimited Channels</li>
+            </ul>
+            <a href="#" class="btn btn-info text-white">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End prices -->
+<!-- Start testimonial -->
+
+<section class="testimonial py-5"> 
+  <div class="container my-5 ">
+    <p class="text-center fs-4 text-muted">Happy Customers</p>
+    
+   <div id="demo" class="testii carousel slide">
+  <div class="carousel-indicators ">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="box border border-2 border-black text-center bg-white px-3">
+        <img src="img/testimonial-1.jpg"
+          class="rounded-circle box-img translate-middle-y"  alt="">
+        <div class="caption pb-4">
+          <h4>Marissa Mayer</h4>
+          <p class="test-muted">CEO, Yahoo</p>
+          <p class="lead">Quo rem cumque facere modi beatae. Deleniti nisi, repellat quae aspernatur consequatur consequuntur.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="box border border-2 border-black text-center bg-white px-3">
+        <img src="img/testimonial-2.jpg"
+          class="rounded-circle box-img translate-middle-y"  alt="">
+        <div class="caption pb-4">
+          <h4>Mark Zuckerberg</h4>
+          <p class="test-muted">Founder & CEO, Facebook</p>
+          <p class="lead">Consectetur adipisicing elit. Perspiciatis aperiam quaerat iure veritatis fugit debitis.</p>
+        </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="" aria-hidden="true">
+      <i class="fa-solid fa-arrow-left text-black-50 fs-1 left-icon-arrow"></i>
+    </span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="" aria-hidden="true">
+      <i class="fa-solid fa-arrow-right text-black-50 fs-1 right-icon-arrow"></i>
+    </span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+    </div>
+  </div>
+</section>
+<!-- End testimonial -->
+<!-- Start contact -->
+<div class="contact" id="contact">
+  <div class="">
+    <div class="row gap-0 justify-content-center align-items-center">
+      <div class="col-md-6 map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2412638577997!2d-73.98784368459403!3d40.74881797932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a4051f!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1634567890123" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-md-6 form-section bg-white " >
+        <h2 class="head-contact">Get In Touch</h2>
+        <p>Let's work together!</p>
+        <form>
+          <div class="mb-3">
+            <label for="name" class=" mb-3">Your Name</label>
+            <input type="text" id="name" class="form-control"  required>
+          </div>
+          <div class="mb-3">
+            <label for="Email" class="mb-3">Your Email</label>
+            <input type="email" id="Email" class="form-control"  required>
+          </div>
+          <div class="mb-3">
+            <label for="telephone" class="mb-3">Phone Number</label>
+            <input type="tel" id="telephone" class="form-control" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="text-area" class="mb-2">Your Message</label>
+            <textarea class="form-control" id="text-area" rows="4" required></textarea>
+          </div>
+          <button type="button" class="btn btn-custom" onclick="alert('Message sent!')">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End contact -->
+
+
+
+
+
+
+
+  <!-- Bootstrap -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <!-- font Awsome -->
+  <script src="/js/all.min.js"></script>
+  <!-- for  the animation in section about  -->
+  <script>
+    const words = ["apps", "websites", "softwares"];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typingSpan = document.getElementById("typing-text");
+  
+    function type() {
+      const currentWord = words[wordIndex];
+      const currentText = currentWord.substring(0, charIndex);
+      typingSpan.textContent = currentText;
+  
+      if (!isDeleting && charIndex < currentWord.length) {
+        charIndex++;
+        setTimeout(type, 50);
+      } else if (isDeleting && charIndex > 0) {
+        charIndex--;
+        setTimeout(type, 50);
+      } else {
+        isDeleting = !isDeleting;
+        if (!isDeleting) wordIndex = (wordIndex + 1) % words.length;
+        setTimeout(type, 150);
+      }
+    }
+  
+    document.addEventListener("DOMContentLoaded", type);
+  </script>
+</body>
+</html>
